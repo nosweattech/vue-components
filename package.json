@@ -1,0 +1,27 @@
+{
+	"name": "@nosweat/vue",
+	"version": "0.1.0",
+	"main": "./dist/nosweat.common.js",
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build --target lib --name nosweat ./src/components/index.js"
+	},
+	"files": [
+		"dist/*",
+		"src/*",
+		"public/*",
+		"*.json",
+		"*.js"
+	],
+	"dependencies": {
+		"odometer": "^0.4.8",
+		"vue": "^2.5.22"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "^3.4.0",
+		"@vue/cli-service": "^3.4.0",
+		"node-sass": "^4.9.0",
+		"sass-loader": "^7.1.0",
+		"vue-template-compiler": "^2.5.21"
+	}
+}

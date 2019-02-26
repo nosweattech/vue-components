@@ -1,0 +1,3 @@
+[submodule "src/assets/odometer"]
+	path = src/assets/odometer
+	url = git@github.com:HubSpot/odometer.git
